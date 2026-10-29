@@ -2,6 +2,10 @@
 
 Statische One-Page-Website für das Künstlerhaus Casa Ferronato in den Marken.
 
+## Live
+
+<https://konqidam.github.io/casa-ferronato/>
+
 ## Lokal ansehen
 
 `index.html` im Browser öffnen. Für die Schriften wird eine Internetverbindung benötigt; die Bilder liegen lokal im Ordner `assets/`.
