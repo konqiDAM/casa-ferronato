@@ -9,7 +9,13 @@ Statische One-Page-Website für das Künstlerhaus Casa Ferronato in den Marken.
 ## Auf GitHub Pages veröffentlichen
 
 1. Neues **öffentliches** Repository anlegen, z. B. `casa-ferronato`.
-2. Den Inhalt dieses Ordners hochladen (`index.html`, `styles.css`, `favicon.svg`, `assets/`).
+2. Remote hinzufügen und den vorhandenen Commit pushen:
+
+   ```bash
+   git remote add origin https://github.com/<benutzername>/casa-ferronato.git
+   git push -u origin main
+   ```
+
 3. Im Repository: **Settings → Pages**.
 4. Unter **Build and deployment** die Quelle **Deploy from a branch** wählen, Branch `main`, Ordner `/ (root)`, speichern.
 5. Nach ein bis zwei Minuten ist die Seite unter `https://<benutzername>.github.io/casa-ferronato/` erreichbar.
